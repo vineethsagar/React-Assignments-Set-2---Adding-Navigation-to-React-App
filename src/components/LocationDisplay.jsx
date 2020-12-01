@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 export default function LocationDisplay() {
   // const [location, setLocation] = useState("");
 
-  const loc = useLocation();
+  //const loc = useLocation();
   /* 
   useEffect(() => {
     setLocation(loc.pathname);
@@ -12,7 +12,7 @@ export default function LocationDisplay() {
  */
   return (
     <>
-      <h1 data-testid="location-display">{loc.pathname}</h1>
+      <h1 data-testid="location-display">{useLocation().pathname}</h1>
     </>
   );
 }

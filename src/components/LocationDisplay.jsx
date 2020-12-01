@@ -2,7 +2,13 @@ import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 export default function LocationDisplay() {
-  const [location, setLocation] = useState(useLocation().pathname);
+  const [location, setLocation] = useState("");
+
+  const loc = useLocation();
+
+  useEffect(() => {
+    setLocation(loc.pathname);
+  }, [setLocation, loc]);
 
   return (
     <>

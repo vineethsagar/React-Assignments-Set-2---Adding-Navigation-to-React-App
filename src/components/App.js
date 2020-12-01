@@ -8,8 +8,8 @@ class App extends Component {
     return (
       <>
         <div id="main">
-          <a href="/">Home</a>
-          <a href="/about">About</a>
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
         </div>
         <div>
           <Switch>

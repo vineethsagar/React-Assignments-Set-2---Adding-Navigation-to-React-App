@@ -3,6 +3,7 @@ import { Link, Route, Switch, useHistory } from "react-router-dom";
 import "../styles/App.css";
 import Home from "./Home";
 import About from "./About";
+import LocationDisplay from "./LocationDisplay";
 class App extends Component {
   render() {
     return (

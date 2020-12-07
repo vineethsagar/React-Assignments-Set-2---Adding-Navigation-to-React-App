@@ -3,9 +3,9 @@ import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import App from "./components/App";
 import Home from "./components/Home";
-function generateCodeFromObject(obj) {
+/* function generateCodeFromObject(obj) {
   //return a code generated string
-}
+} */
 
 ReactDOM.render(
   <BrowserRouter>
@@ -13,4 +13,4 @@ ReactDOM.render(
   </BrowserRouter>,
   document.getElementById("root")
 );
-module.exports = generateCodeFromObject;
+// module.exports = generateCodeFromObject;

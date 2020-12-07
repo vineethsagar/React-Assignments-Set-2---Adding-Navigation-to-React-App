@@ -5,6 +5,7 @@ export default function LocationDisplay() {
   // const [location, setLocation] = useState("");
 
   const loc = useLocation();
+  console.log(loc);
   /* 
   useEffect(() => {
     setLocation(loc.pathname);
